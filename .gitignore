@@ -1,0 +1,14 @@
+# Compiled executable
+*.exe
+
+# Object files
+*.o
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+
+# VS Code
+.vscode/
