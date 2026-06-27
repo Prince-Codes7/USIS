@@ -1,7 +1,7 @@
 #ifndef STUDENT_H
 #define STUDENT_H
 
-struct Student
+typedef struct Student
 {
   // Identity.
   char matricNumber[20];
@@ -33,8 +33,16 @@ struct Student
 
   // Admission Information
   int admissionYear;
-};
+} Student;
 
 void addStudent(void);
+
+void inputStudentDetails(Student *student);
+
+void displayStudent(const Student *student);
+
+int isValidLevel(int level);
+
+void selectFaculty(Student *student);
 
 #endif
