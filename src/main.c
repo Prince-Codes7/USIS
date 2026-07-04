@@ -8,7 +8,7 @@ int main(void)
   do
   {
     printf("\n=====================================\n");
-    printf(" UNILAG STUDENT INFORMATION SYSTEM\n");
+    printf(" UNIVERSITY STUDENT INFORMATION SYSTEM\n");
     printf("====================================\n");
     printf("1. Add Student\n");
     printf("0. Exit\n");
